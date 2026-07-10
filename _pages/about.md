@@ -26,8 +26,6 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-> Hi
-> - albert
 
 **Theory @UMass** is a community for undergraduate students interested in theoretical computer science (TCS) and research. We host study groups, reading groups, talks, competitions, and social events that engage the community with verious topics in TCS.
 
