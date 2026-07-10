@@ -14,26 +14,26 @@ profiles:
     content: about_isik.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+      <p>555 He/Him</p>
+      <p>123 iulusan [at] umass [dot] edu</p>
+
       
   - align: left
     image: august.jpg
     content: about_august.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+      <p>555 They/Them</p>
+      <p>123 psingh [at] umass [dot] edu</p>
+
       
   - align: right
     image: quinn.jpg
     content: about_quinn.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+      <p>He/Him</p>
+      <p>123 quinnmayo [at] protonmail [dot] com</p>
+      
       
 ---
