@@ -14,8 +14,9 @@ profiles:
     content: about_isik.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>555 He/Him</p>
-      <p>123 iulusan [at] umass [dot] edu</p>
+      <p>Isik Ulusan</p>
+      <p>He/Him</p>
+      <p>iulusan [at] umass [dot] edu</p>
 
       
   - align: left
@@ -23,8 +24,9 @@ profiles:
     content: about_august.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>555 They/Them</p>
-      <p>123 psingh [at] umass [dot] edu</p>
+      <p>August Singh</p>
+      <p>They/Them</p>
+      <p>psingh [at] umass [dot] edu</p>
 
       
   - align: right
@@ -32,8 +34,9 @@ profiles:
     content: about_quinn.md
     image_circular: false # crops the image to make it circular
     more_info: >
+      <p>Quinn Mayo</p>
       <p>He/Him</p>
-      <p>123 quinnmayo [at] protonmail [dot] com</p>
+      <p>quinnmayo[at]protonmail[dot]com</p>
       
       
 ---
