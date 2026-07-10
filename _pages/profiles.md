@@ -1,8 +1,8 @@
 ---
 layout: profiles
-permalink: /people/
-title: people
-description: our officers
+permalink: /eboard/
+title: Eboard
+description: Our Officers
 nav: true
 nav_order: 7
 
