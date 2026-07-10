@@ -1,0 +1,1 @@
+I’m a PhD student at Simon Fraser University studying computational complexity theory and logic. Previously, I was an undergraduate and master’s student at UMass where I helped start and run the Theory Club. I plan to continue contributing to the club remotely for a while.
