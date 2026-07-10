@@ -11,7 +11,7 @@ profiles:
   # and create one content file for each profile inside _pages/
   - align: right
     image: isik.jpg
-    content: about_einstein.md
+    content: about_isik.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>555 your office number</p>
@@ -20,7 +20,7 @@ profiles:
       
   - align: left
     image: august.jpg
-    content: about_einstein.md
+    content: about_august.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>555 your office number</p>
@@ -29,7 +29,7 @@ profiles:
       
   - align: right
     image: quinn.jpg
-    content: about_einstein.md
+    content: about_quinn.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>555 your office number</p>
