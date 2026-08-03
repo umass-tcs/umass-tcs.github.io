@@ -37,6 +37,15 @@ profiles:
       <p>Quinn Mayo</p>
       <p>He/Him</p>
       <p>quinnmayo[at]protonmail[dot]com</p>
+
+     - align: left
+    image: aaron.jpg
+    content: about_aaron.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Aaron Tian</p>
+      <p>He/Him</p>
+      <p>Aatian [at] umich [dot] edu</p>   
       
       
 ---
