@@ -1,1 +1,0 @@
-Aaron Tian’s work centers on the design and analysis of fast, scalable algorithms for modern data science and machine learning. His current research is in randomized numerical linear algebra, where he studies efficient algorithms for large-scale matrix problems. He is currently pursuing a PhD at the University of Michigan, Ann Arbor.
