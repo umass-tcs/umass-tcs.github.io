@@ -43,7 +43,7 @@
   },
   {
     "code": "CS611",
-    "title": "Advanced Algorithm",
+    "title": "Advanced Algorithms",
     "description": "This course teaches advanced techniques and paradigms in algorithm design",
     "prereqs": "CS311"
   },
