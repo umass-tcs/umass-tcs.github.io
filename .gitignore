@@ -1,3 +1,4 @@
 node_modules/
 _site/
 design_handoff_theory_umass_site/
+.claude/

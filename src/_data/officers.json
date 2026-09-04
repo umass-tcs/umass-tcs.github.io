@@ -12,10 +12,10 @@
     "name": "Toby Kahn",
     "pronouns": "he/him",
     "role": "Co-President",
-    "portrait": null,
+    "portrait": "/assets/toby.jpg",
     "email": "tkahn [at] umass [dot] edu",
     "emailHref": "mailto:sample@umass.edu",
-    "bio": "[PLACEHOLDER.]"
+    "bio": "Hello! My name is Toby and I'm a computer science and mathematics major, broadly interested in algorithms. I am currently working on algorithms for predicting smooth functions in an online setting. I hope to see you all at this club during the upcoming semester!"
   },
   {
     "name": "August Singh",
