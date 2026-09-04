@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Isik Ulusan",
+    "pronouns": "he/him",
+    "role": "Co-President",
+    "portrait": "/assets/isik.jpg",
+    "email": "iulusan [at] umass [dot] edu",
+    "emailHref": "mailto:sample@umass.edu",
+    "bio": "I’m a senior interesting in complexity theory and related fields, but especially interactive proof systems. I am currently working on streaming algorithms in an interactive proof systems setting. Feel free to reach out if you have any questions about complexity theory or TCS in general!"
+  },
+  {
+    "name": "Toby Kahn",
+    "pronouns": "he/him",
+    "role": "Co-President",
+    "portrait": null,
+    "email": "tkahn [at] umass [dot] edu",
+    "emailHref": "mailto:sample@umass.edu",
+    "bio": "[PLACEHOLDER.]"
+  },
+  {
+    "name": "August Singh",
+    "pronouns": "they/them",
+    "role": "Officer",
+    "portrait": "/assets/august.jpg",
+    "email": "psingh [at] umass [dot] edu",
+    "emailHref": "mailto:sample@umass.edu",
+    "bio": "My name’s August, and I’m a Computer Science and Pure Math dual degree student! I’m interested in Information Theory, Algorithms and Finite group theory. I’m from Bangalore, India and Austin, Texas. I love playing chess, learning about math and rock climbing. I also have 2 huskies. I’ll see you in the Fall:)"
+  },
+  {
+    "name": "Quinn Mayo",
+    "pronouns": "he/him",
+    "role": "Officer",
+    "portrait": "/assets/quinn.jpg",
+    "email": "quinmayo [at] protonmail [dot] com",
+    "emailHref": "mailto:sample@umass.edu",
+    "bio": "I’m a PhD student at Simon Fraser University studying computational complexity theory and logic. Previously, I was an undergraduate and master’s student at UMass where I helped start and run the Theory Club. I plan to continue contributing to the club remotely for a while.",
+    "website": "https://quinnmayo.com/#"
+  }
+]

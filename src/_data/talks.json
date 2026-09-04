@@ -1,0 +1,44 @@
+{
+  "upcoming": [
+    {
+      "date": "TBA",
+      "time": "TBA",
+      "title": "Introduction to Quantum Algorithms",
+      "speaker": "Benjamin Kuchma, PhD Student, MIT",
+      "location": "TBA"
+    },
+    {
+      "date": "TBA",
+      "time": "TBA",
+      "title": "TBA",
+      "speaker": "Hung Le, Associate Professor, UMass",
+      "location": "TBA"
+    },
+    {
+      "date": "TBA",
+      "time": "TBA",
+      "title": "TBA",
+      "speaker": "Andrew McGregor, Professor, UMass",
+      "location": "TBA"
+    }
+  ],
+  "archive": [
+    {
+      "title": "Designing Graph Algorithms with VC Dimension",
+      "speaker": "Hung Le, UMass",
+      "date": "December 4 2025"
+    },
+    {
+      "title": "Boolean Circuits, Branching Programs, and Barrington's Theorem",
+      "speaker": "David A. Mix Barrington, UMass",
+      "date": "December 3 2025",
+      "note": "chalk talk"
+    },
+    {
+      "title": "Intro to Graph Isomorphism",
+      "speaker": "Jacob Urisman, CU Boulder",
+      "date": "November 20 2025",
+      "pdf": "/talks/Jacob%20Urisman%20-%20Intro%20to%20Graph%20Isomorphism.pdf"
+    }
+  ]
+}

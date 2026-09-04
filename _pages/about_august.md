@@ -1,1 +1,0 @@
-My name's August, and I'm a Computer Science and Pure Math dual degree student! I'm interested in Information Thoery, Algorithms and Finite group theory. I'm from Bangalore, India and Austin, Texas. I love playing chess, learning about math and rock climbing. I also have 2 huskies. I'll see you in the Fall:)

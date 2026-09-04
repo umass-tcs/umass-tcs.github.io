@@ -1,0 +1,36 @@
+{
+  "books": [
+    {
+      "title": "Introduction to the Theory of Computation",
+      "author": "Michael Sipser",
+      "topics": "Formal Language Theory, Recursion Theory, Complexity Theory"
+    },
+    {
+      "title": "Computational Complexity: A Modern Approach",
+      "author": "Sanjeev Arora and Boaz Barak",
+      "topics": "Complexity Theory, Quantum Complexity Theory, Cryptography"
+    }
+  ],
+  "papers": [
+    {
+      "title": "IP = PSPACE: Simplified Proof",
+      "author": "Alexander Shen",
+      "topics": "Complexity Theory, Interactive Proofs"
+    },
+    {
+      "title": "How to Share a Secret",
+      "author": "Adi Shamir",
+      "topics": "Cryptography"
+    },
+    {
+      "title": "Coin Flipping By Telephone",
+      "author": "Manuel Blum",
+      "topics": "Cryptography"
+    },
+    {
+      "title": "One Complexity Theorist's View of Quantum Computing",
+      "author": "Lance Fortnow",
+      "topics": "Quantum Computation, Quantum Complexity Theory"
+    }
+  ]
+}

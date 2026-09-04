@@ -1,0 +1,27 @@
+---
+title: Resources
+layout: base.njk
+---
+{% import "macros.njk" as m %}
+
+<section class="hero">
+  <h1 class="long-form">Resources</h1>
+  <p>Every problem set we've written for the weekly meetings, newest first. Ask us about it if you'd like to talk through the questions.</p>
+</section>
+
+<section class="section">
+  {{ m.eyebrow("Problem sets") }}
+  {% for group in problemSets %}
+  <div class="term-group">
+    <div class="term-header">
+      <h2>{{ group.term }}</h2>
+      <span class="count">{{ group.sets.length }} SET{{ "S" if group.sets.length != 1 }}</span>
+    </div>
+    <ul class="row-list">
+      {% for set in group.sets %}
+      {{ m.psetRow(set) }}
+      {% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+</section>

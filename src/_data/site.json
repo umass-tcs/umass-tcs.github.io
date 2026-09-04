@@ -1,0 +1,14 @@
+{
+  "name": "Theory@UMass",
+  "nav": [
+    { "label": "Talks", "url": "/talks/" },
+    { "label": "People", "url": "/people/" },
+    { "label": "Courses", "url": "/courses/" },
+    { "label": "Reading", "url": "/reading/" },
+    { "label": "Resources", "url": "/resources/" },
+    { "label": "Other", "url": "/other/" }
+  ],
+  "footerText": "Theory@UMass · College of Information and Computer Sciences",
+  "instagramHandle": "@umasstheoryclub",
+  "instagramUrl": "https://www.instagram.com/umasstheoryclub/"
+}

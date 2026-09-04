@@ -1,0 +1,18 @@
+---
+title: People
+layout: base.njk
+---
+{% import "macros.njk" as m %}
+
+<section class="hero">
+  <h1 class="long-form">People</h1>
+</section>
+
+<section class="section">
+  {{ m.eyebrow("Officers") }}
+  <div>
+    {% for officer in officers %}
+    {{ m.officerRow(officer, "left" if loop.index0 % 2 == 0 else "right") }}
+    {% endfor %}
+  </div>
+</section>

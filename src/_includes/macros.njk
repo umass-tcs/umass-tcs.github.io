@@ -1,0 +1,88 @@
+{% macro eyebrow(text) %}
+<h2 class="eyebrow">{{ text }}</h2>
+{% endmacro %}
+
+{% macro eventRow(item, includeSpeaker) %}
+<li class="row-event">
+  <div>
+    <p class="meta-date">Date: {{ item.date }}</p>
+    <p class="meta-time">Time: {{ item.time }}</p>
+  </div>
+  <div>
+    <p class="title">{{ item.title }}</p>
+    {% if includeSpeaker %}<p class="speaker">{{ item.speaker }}</p>{% endif %}
+  </div>
+  <p class="location">Location: {{ item.location }}</p>
+</li>
+{% endmacro %}
+
+{% macro archiveItem(item) %}
+<li class="archive-item">
+  <p class="title">{{ item.title }}</p>
+  <p class="byline">{{ item.speaker }} &middot; {{ item.date }}{% if item.note %} &middot; {{ item.note }}{% endif %}{% if item.pdf %} &middot; <a href="{{ item.pdf }}" target="_blank" rel="noopener noreferrer">pdf</a>{% endif %}</p>
+</li>
+{% endmacro %}
+
+{% macro courseRow(course) %}
+<li class="row-course">
+  <span class="code">{{ course.code }}</span>
+  <span class="title">{{ course.title }}</span>
+  <div>
+    <p class="description">{{ course.description }}</p>
+    <p class="prereqs"><span class="label">Prereqs</span>&nbsp;{{ course.prereqs }}</p>
+  </div>
+</li>
+{% endmacro %}
+
+{% macro readingItem(item) %}
+<li>
+  <div class="entry-head">
+    <p class="title">{{ item.title }}</p>
+    <p class="author">{{ item.author }}</p>
+  </div>
+  <p class="topics">{{ item.topics }}</p>
+</li>
+{% endmacro %}
+
+{% macro officerRow(officer, side) %}
+<div class="officer-row portrait-{{ side }}">
+  <div class="officer-portrait">
+    {% if officer.portrait %}
+    <img src="{{ officer.portrait }}" alt="{{ officer.name }}">
+    {% else %}
+    <div class="portrait-placeholder"><span>portrait &mdash; [{{ officer.name }}]</span></div>
+    {% endif %}
+    <p class="officer-name">{{ officer.name }}&nbsp;<span class="pronouns">{{ officer.pronouns }}</span></p>
+    <p class="officer-email"><a href="{{ officer.emailHref }}">{{ officer.email }}</a></p>
+  </div>
+  <div class="officer-text">
+    <p class="officer-role">{{ officer.role }}</p>
+    <p class="officer-bio long-form">{{ officer.bio }}</p>
+    {% if officer.website %}
+    <p class="officer-website"><a href="{{ officer.website }}" target="_blank" rel="noopener noreferrer">Personal website &rarr;</a></p>
+    {% endif %}
+  </div>
+</div>
+{% endmacro %}
+
+{% macro psetRow(set) %}
+<li class="row-pset">
+  <span class="n">{{ set.n }}</span>
+  <p class="title">{{ set.title }}</p>
+  <span class="date">{{ set.date }}</span>
+  <span class="download"><a href="{{ set.file }}" target="_blank" rel="noopener noreferrer">Download &rarr;</a></span>
+</li>
+{% endmacro %}
+
+{% macro projectRow(project) %}
+<li class="row-project">
+  <div>
+    <div class="entry-head">
+      <p class="title">{{ project.name }}</p>
+      <p class="author">{{ project.author }}</p>
+    </div>
+    <p class="description long-form">{{ project.description }}</p>
+  </div>
+  <p class="play-link"><a href="{{ project.url }}" target="_blank" rel="noopener noreferrer">Play &rarr;</a></p>
+</li>
+{% endmacro %}

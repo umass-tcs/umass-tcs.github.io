@@ -1,0 +1,56 @@
+[
+  {
+    "code": "CS250",
+    "title": "Introduction to Computation",
+    "description": "This course teaches you about common proof techniques and basics of computation",
+    "prereqs": "CS160 and MATH132"
+  },
+  {
+    "code": "CS311",
+    "title": "Introduction to Algorithms",
+    "description": "Algorithms are the basis of solving computational problems",
+    "prereqs": "CS250"
+  },
+  {
+    "code": "CS501",
+    "title": "Formal Language Theory",
+    "description": "It teaches you the foundations of computation and thinking about fundamentally hard problems.",
+    "prereqs": "CS311 OR A in CS250 and dual enrollment with CS311"
+  },
+  {
+    "code": "CS513/613",
+    "title": "Logic in Computer Science",
+    "description": "It introduces different logics, logic programming, descriptive complexity, and other topics in logic.",
+    "prereqs": "CS311"
+  },
+  {
+    "code": "CS514",
+    "title": "Algorithms for Data Science",
+    "description": "It goes over techniques applicable to processing large amounts of data and computing the problems relevant to such settings.",
+    "prereqs": "CS240 and CS311"
+  },
+  {
+    "code": "CS575",
+    "title": "Graph Theory and Combinatorics",
+    "description": "For discrete structures and computations, graphs provide important abstractions, while combinatorics provide many fundamental techniques",
+    "prereqs": "CS250"
+  },
+  {
+    "code": "CS601",
+    "title": "Complexity Theory",
+    "description": "A well structured course about thinking about resource bounded computation.",
+    "prereqs": "CS501"
+  },
+  {
+    "code": "CS611",
+    "title": "Advanced Algorithm",
+    "description": "This course teaches advanced techniques and paradigms in algorithm design",
+    "prereqs": "CS311"
+  },
+  {
+    "code": "CS614",
+    "title": "Randomized Algorithms",
+    "description": "Randomization can sometimes help speedup our computation. This class teaches such problems and techniques.",
+    "prereqs": "CS514 OR CS611"
+  }
+]
