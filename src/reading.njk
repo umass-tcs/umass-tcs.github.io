@@ -1,0 +1,30 @@
+---
+title: Reading
+layout: base.njk
+---
+{% import "macros.njk" as m %}
+
+<section class="hero">
+  <h1 class="long-form">Reading</h1>
+  <p>Our favorite papers and books about theory!</p>
+</section>
+
+<section class="section">
+  {{ m.eyebrow("Books & chapters") }}
+  <ul class="row-list reading-list">
+    {% for book in reading.books %}
+    {{ m.readingItem(book) }}
+    {% endfor %}
+  </ul>
+</section>
+
+{% if reading.papers.length %}
+<section class="section" style="margin-top: 72px;">
+  {{ m.eyebrow("Papers") }}
+  <ul class="row-list reading-list">
+    {% for paper in reading.papers %}
+    {{ m.readingItem(paper) }}
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}

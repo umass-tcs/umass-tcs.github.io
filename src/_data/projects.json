@@ -1,0 +1,8 @@
+[
+  {
+    "name": "Complexle",
+    "author": "Isik",
+    "description": "a Wordle-style guessing game, but instead of guessing a five-letter word, you're guessing a computational complexity class, like P, NP, or PSPACE.",
+    "url": "https://iulusan.github.io/complexle"
+  }
+]

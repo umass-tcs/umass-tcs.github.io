@@ -1,0 +1,15 @@
+{
+  "weeklyMeeting": {
+    "date": "TBA",
+    "time": "TBA",
+    "title": "First Weekly Meeting",
+    "location": "TBA"
+  },
+  "nextTalk": {
+    "date": "TBA",
+    "time": "TBA",
+    "title": "Introduction to Quantum Algorithms",
+    "speaker": "Benjamin Kuchma, PhD Student, MIT",
+    "location": "TBA"
+  }
+}

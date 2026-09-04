@@ -1,0 +1,49 @@
+---
+title: Home
+layout: base.njk
+---
+{% import "macros.njk" as m %}
+
+<section class="hero">
+  <h1 class="long-form">Anything Theory.</h1>
+  <p>Theory@UMass is a club for anyone curious about algorithms, complexity, cryptography, and the mathematics of computation. Everyone is welcome.</p>
+</section>
+
+<section class="section">
+  {{ m.eyebrow("Weekly meetings") }}
+  <ul class="row-list">
+    {{ m.eventRow(home.weeklyMeeting, false) }}
+  </ul>
+</section>
+
+<section class="section">
+  {{ m.eyebrow("Next talk") }}
+  <ul class="row-list">
+    {{ m.eventRow(home.nextTalk, true) }}
+  </ul>
+  <a class="all-talks-link" href="/talks/">All upcoming talks &rarr;</a>
+</section>
+
+<section class="section" style="margin-top: 78px;">
+  {{ m.eyebrow("What we do") }}
+  <div class="what-we-do">
+    <div>
+      <h3>Weekly meetings</h3>
+      <p class="long-form">The club meets once a week during term: it is an informal hour of for our weekly problem sets, discussion, whiteboard problems, and whatever anyone is currently reading.<br>Drop in for any of it.</p>
+    </div>
+    <div>
+      <h3>Faculty talks</h3>
+      <p class="long-form">At a few points each semester we host a faculty member or a guest for a talk on their work, pitched so that anyone in the room can follow it. You can find the schedule on <a href="/talks/">Talks</a>.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="margin-top: 82px;">
+  <div class="closing-band">
+    <h2 class="line">Everyone is welcome, at every level.</h2>
+    <div>
+      <p>Drop in to any meeting. We post what's happening each week on Instagram; for the Discord invite, ask any of the <a href="/people/">officers</a>.</p>
+      <a class="instagram-button" href="{{ site.instagramUrl }}" target="_blank" rel="noopener noreferrer">Instagram &mdash; {{ site.instagramHandle }}</a>
+    </div>
+  </div>
+</section>

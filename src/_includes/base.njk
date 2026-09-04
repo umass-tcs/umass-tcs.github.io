@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title }} · {{ site.name }}</title>
+  <link rel="icon" type="image/png" href="/assets/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,600;1,400&family=Public+Sans:wght@300;400;500&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body>
+  <div class="page">
+    <header class="site-header">
+      <a href="/" class="wordmark">
+        <img src="/assets/logo.png" alt="{{ site.name }}">
+        <span>Theory<span class="at">@</span>UMass</span>
+      </a>
+      <nav class="site-nav">
+        {% for item in site.nav %}
+        <a href="{{ item.url }}"{% if page.url == item.url %} class="active"{% endif %}>{{ item.label }}</a>
+        {% endfor %}
+      </nav>
+    </header>
+
+    {{ content | safe }}
+
+    <footer class="site-footer">
+      <span>{{ site.footerText }}</span>
+      <a href="{{ site.instagramUrl }}" target="_blank" rel="noopener noreferrer">{{ site.instagramHandle }}</a>
+    </footer>
+  </div>
+</body>
+</html>

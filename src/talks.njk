@@ -1,0 +1,29 @@
+---
+title: Talks
+layout: base.njk
+---
+{% import "macros.njk" as m %}
+
+<section class="hero">
+  <h1 class="long-form">Talks</h1>
+  <p>Alongside the weekly meeting, we host faculty and guest talks at a few points each semester. Slides and notes are posted afterwards when the speaker is happy to share them.</p>
+</section>
+
+<section class="section">
+  {{ m.eyebrow("Upcoming") }}
+  <ul class="row-list">
+    {% for talk in talks.upcoming %}
+    {{ m.eventRow(talk, true) }}
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="section" style="margin-top: 78px;">
+  {{ m.eyebrow("Archive") }}
+  <p class="archive-intro">Past talks, most recent first.</p>
+  <ul class="row-list">
+    {% for talk in talks.archive %}
+    {{ m.archiveItem(talk) }}
+    {% endfor %}
+  </ul>
+</section>

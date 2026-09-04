@@ -1,6 +1,11 @@
 {
+  "name": "theory-umass-site",
+  "private": true,
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve"
+  },
   "devDependencies": {
-    "@shopify/prettier-plugin-liquid": "1.4.0",
-    "prettier": "3.1.1"
+    "@11ty/eleventy": "^3.0.0"
   }
 }

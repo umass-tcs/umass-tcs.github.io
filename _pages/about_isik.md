@@ -1,1 +1,0 @@
-I'm a senior interesting in complexity theory and related fields, but especially interactive proof systems. I am currently working on streaming algorithms in an interactive proof systems setting. Feel free to reach out if you have any questions about complexity theory or TCS in general!

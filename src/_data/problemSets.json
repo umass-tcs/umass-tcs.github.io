@@ -1,0 +1,60 @@
+[
+  {
+    "term": "Spring '26",
+    "sets": [
+      {
+        "n": 3,
+        "title": "Results implying P = NP, An Assortment of Problems",
+        "date": "April 1 2026",
+        "file": "/psets/Theory%40UMass%20S26%20Problem%20Set%203.pdf"
+      },
+      {
+        "n": 2,
+        "title": "Approximate Matrix Multiplication, Randomized TMs and Complexity Classes",
+        "date": "February 26 2026",
+        "file": "/psets/Theory%40UMass%20S26%20Problem%20Set%202.pdf"
+      },
+      {
+        "n": 1,
+        "title": "Resource Bounded TMs, Extremal Graph Theory, Fast Polynomial Operations",
+        "date": "February 10 2026",
+        "file": "/psets/Theory%40UMass%20S26%20Problem%20Set%201.pdf"
+      }
+    ]
+  },
+  {
+    "term": "Fall '25",
+    "sets": [
+      {
+        "n": 5,
+        "title": "Group Theory, Boolean Circuits, Branching Programs",
+        "date": "December 1 2025",
+        "file": "/psets/Theory%40UMass%20F25%20Problem%20Set%205.pdf"
+      },
+      {
+        "n": 4,
+        "title": "Decidability, The Arithmetical Hierarchy, Majority, Sphere Packing",
+        "date": "November 4 2025",
+        "file": "/psets/Theory%40UMass%20F25%20Problem%20Set%204.pdf"
+      },
+      {
+        "n": 3,
+        "title": "Turing Machine Variations, Lattices, Matrix Exponentiation",
+        "date": "October 21 2025",
+        "file": "/psets/Theory%40UMass%20F25%20Problem%20Set%203.pdf"
+      },
+      {
+        "n": 2,
+        "title": "Turing Machines, Kolmogorov Complexity, Matrix Multiplication",
+        "date": "October 16 2025",
+        "file": "/psets/Theory%40UMass%20F25%20Problem%20Set%202.pdf"
+      },
+      {
+        "n": 1,
+        "title": "Geometry in High Dimensions, DFAs, Partial Orders, Kolmogorov Complexity",
+        "date": "October 9 2025",
+        "file": "/psets/Theory%40UMass%20F25%20Problem%20Set%201.pdf"
+      }
+    ]
+  }
+]

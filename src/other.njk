@@ -1,0 +1,19 @@
+---
+title: Other
+layout: base.njk
+---
+{% import "macros.njk" as m %}
+
+<section class="hero">
+  <h1 class="long-form">Other</h1>
+  <p>Side projects, games, and other things club members have made.</p>
+</section>
+
+<section class="section">
+  {{ m.eyebrow("Projects") }}
+  <ul class="row-list">
+    {% for project in projects %}
+    {{ m.projectRow(project) }}
+    {% endfor %}
+  </ul>
+</section>
