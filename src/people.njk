@@ -16,3 +16,12 @@ layout: base.njk
     {% endfor %}
   </div>
 </section>
+
+<section class="section" style="margin-top: 72px;">
+  {{ m.eyebrow("Alumni") }}
+  <div>
+    {% for alum in alumni %}
+    {{ m.officerRow(alum, "left" if (officers.length + loop.index0) % 2 == 0 else "right") }}
+    {% endfor %}
+  </div>
+</section>

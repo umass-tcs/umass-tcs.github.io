@@ -56,7 +56,7 @@
     <p class="officer-email"><a href="{{ officer.emailHref }}">{{ officer.email }}</a></p>
   </div>
   <div class="officer-text">
-    <p class="officer-role">{{ officer.role }}</p>
+    {% if officer.role %}<p class="officer-role">{{ officer.role }}</p>{% endif %}
     <p class="officer-bio long-form">{{ officer.bio }}</p>
     {% if officer.website %}
     <p class="officer-website"><a href="{{ officer.website }}" target="_blank" rel="noopener noreferrer">Personal website &rarr;</a></p>
